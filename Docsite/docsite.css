@@ -1,0 +1,117 @@
+@import url('/Base CSS/Base.css');
+@import url('/styles.css');
+
+
+.docsite {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 13vh 1fr;
+    grid-template-areas: 
+            "navbar navbar navbar"
+            "aside main main";
+    font-family: 'Monteserrat', sans-serif;
+}
+.docsite_docs {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    "aside main main";
+    width: 100vw;
+}
+
+/* docsite navbar section */
+.docsite_section_navbar {
+    grid-area: navbar;
+    display: grid;
+}
+.navbar {
+    background-color: var(--primary-medium);
+    box-shadow: 0px 1px 8px 0px #003333;
+    position: fixed;
+}
+
+/* docsite aside section */
+.docsite_section_aside {
+    display: grid;
+    grid-area: aside;
+    background-color: var(--primary-color);
+    overflow-y: auto;
+    height: calc(100vh - 13vh);
+    min-width: calc(100vw / 4);
+    font-family: 'Inter',sans-serif;
+}
+.docsite_section_aside nav{
+    padding: 1rem 0;
+}
+.aside_nav-list {
+    font-weight: var(--font-medium);
+    font-size: 1.2rem;
+}
+.aside_nav-list .list-item{
+    padding: 1.5rem 3.5rem;
+    color: var(--primary-bold);
+    width: calc(100% - (3.5rem * 2) - 5px);
+    transition: .4s ease;
+}
+.aside_nav-list .list-item:hover{
+    background-color: var(--primary-hover);
+    border-left: 5px solid var(--primary-dark);
+    transition: .2s ease;
+}
+.list-item-active{
+    background-color: var(--primary-hover);
+    border-left: 5px solid var(--primary-dark);
+    transition: .2s ease;
+}
+
+/* docsite main section */
+.docsite_section_main {
+    grid-area: main;
+    background-color: var(--primary-light);
+    display: grid;
+    height: 100%;
+}
+
+.aside_title {
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: var(--font-bold);
+    padding: 1.5rem 3rem;
+    cursor: default;
+}
+.aside_title {
+    pointer-events: none;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.arrow-menu {
+    display: none;
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    font-size: 1.3rem;
+    padding: .4rem .5rem;
+    padding-right: 1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    color: var(--primary-color);
+    background-color: var(--primary-bold);
+}
+
+@media only screen and (max-width: 1070px) {
+    .arrow-menu {
+        display: flex;
+    }
+    .docsite_section_aside {
+        display: none;
+    }
+    .docsite_docs {
+        grid-template-columns: max-content;
+    }
+}
