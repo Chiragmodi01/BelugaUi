@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./Docsite Comps CSS/Input.css">
+    <title>Docsite | Input</title>
+</head>
+<body class="main-comp-container">
+    <section class="comp-header">
+        <h1 class="comp-title">Textboxes</h1>
+        <p class="comp-desc">Avatar displays user image or initials as profile picture. <br> Avatars are available in many types and customizable assets like shadow, shapes, sizes, hover effect, overlay, border, types like image and text, multiples in group etc.</p>
+    </section>
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Solid textbox</h2>
+        <p class="varient-desc">These Solid textboxes are easy to integrate in your html and have a cool label-transition when you click on input field.
+            <br>
+            You can also customize your solid input. Add any following class to your input-container to alter textbox's size - <span class="class-name">sm, md, lg</span> and we also have 8 different types of colors in textbox - <span class="class-name">primary, secondary, dark, lightgrey, success, warning, error and info</span>. And the default one is in basic white color. To use these colors, Just add the class <span class="class-name">input</span> and add any of the color mentioned above, following by an hifen(-) before.
+        <br>
+        Keep in mind that the <span class="class-name">for</span> attribute of label element, should match to the id of input element. Both sould be unique to another set of input textbox, if you're using multiple.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <div class="input-container sm solid-input label-transition">
+                    <input type="text" name="full_name" id="name" class="input-textbox" required>
+                    <label for="name" class="input-label">Full name </label>
+                </div>
+                <div class="input-container md solid-input label-transition">
+                    <input type="text" name="full_name" id="name1" class="input-textbox input-primary" required>
+                    <label for="name1" class="input-label">Full name </label>
+                </div>
+                <div class="input-container lg solid-input label-transition">
+                    <input type="text" name="full_name" id="name2" class="input-textbox input-secondary" required>
+                    <label for="name2" class="input-label">Full name </label>
+                </div>
+                <div class="input-container solid-input label-transition">
+                    <input type="text" name="full_name" id="name3" class="input-textbox input-dark" required>
+                    <label for="name3" class="input-label">Full name </label>
+                </div>
+                <div class="input-container solid-input label-transition">
+                    <input type="text" name="full_name" id="name4" class="input-textbox input-lightgrey" required>
+                    <label for="name4" class="input-label">Full name </label>
+                </div>
+                <div class="input-container solid-input label-transition">
+                    <input type="text" name="full_name" id="name5" class="input-textbox input-success" required>
+                    <label for="name5" class="input-label">Full name </label>
+                </div>
+                <div class="input-container solid-input label-transition">
+                    <input type="text" name="full_name" id="name6" class="input-textbox input-warning" required>
+                    <label for="name6" class="input-label">Full name </label>
+                </div>
+                <div class="input-container solid-input label-transition">
+                    <input type="text" name="full_name" id="name7" class="input-textbox input-error" required>
+                    <label for="name7" class="input-label">Full name </label>
+                </div>
+                <div class="input-container solid-input label-transition">
+                    <input type="text" name="full_name" id="name8" class="input-textbox input-info" required>
+                    <label for="name8" class="input-label">Full name </label>
+                </div>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="input-container sm solid-input label-transition">
+                        <input type="text" name="full_name" id="name" class="input-textbox" required>
+                        <label for="name" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container md solid-input label-transition">
+                        <input type="text" name="full_name" id="name1" class="input-textbox input-primary" required>
+                        <label for="name1" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container lg solid-input label-transition">
+                        <input type="text" name="full_name" id="name2" class="input-textbox input-secondary" required>
+                        <label for="name2" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container solid-input label-transition">
+                        <input type="text" name="full_name" id="name3" class="input-textbox input-dark" required>
+                        <label for="name3" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container solid-input label-transition">
+                        <input type="text" name="full_name" id="name4" class="input-textbox input-lightgrey" required>
+                        <label for="name4" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container solid-input label-transition">
+                        <input type="text" name="full_name" id="name5" class="input-textbox input-success" required>
+                        <label for="name5" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container solid-input label-transition">
+                        <input type="text" name="full_name" id="name6" class="input-textbox input-warning" required>
+                        <label for="name6" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container solid-input label-transition">
+                        <input type="text" name="full_name" id="name7" class="input-textbox input-error" required>
+                        <label for="name7" class="input-label">Full name </label>
+                    </div>
+                    <div class="input-container solid-input label-transition">
+                        <input type="text" name="full_name" id="name8" class="input-textbox input-info" required>
+                        <label for="name8" class="input-label">Full name </label>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Textbox in Form</h2>
+        <p class="varient-desc">
+            The form with textbox components are of 3 different types, which can be used just by adding following type as class to <span class="class-name">input-box-wrapper</span> parent div - <span class="class-name">inverted and primary</span>. The default basic one is white in color.
+        <br>
+        You can also add multiple input field's in this and create an awasome looking form for you website.
+        <br>
+        Keep in mind that the <span class="class-name">for</span> attribute of label element, should match to the id of input element. Both sould be unique to another set of input textbox, if you're using multiple.</p>
+
+        <div class="comp-display-wrapper">
+            <div class="input-container input-box-wrapper label-transition">
+                <div class="input-box-title-container">
+                    <i class="fas fa-mug-hot"></i>
+                    <h4 class="input-box-title">Regular</h4>
+                </div>
+                <input type="text" name="full_name" id="nameb1" class="input-textbox" required>
+                <label for="nameb1" class="input-label">Full name</label>
+                <div class="input-box-action-container">
+                    <button class="input-action-btn">Send</button><button class="input-action-btn">Reset</button>
+                </div>
+            </div>
+            <div class="input-container input-box-wrapper inverted label-transition" title="Inverted Input box">
+                <div class="input-box-title-container">
+                    <i class="fas fa-mug-hot"></i>
+                    <h4 class="input-box-title">Inverted</h4>
+                </div>
+                <input type="text" name="full_name" id="nameb2" class="input-textbox" required>
+                <label for="nameb2" class="input-label">Full name</label>
+                <div class="input-box-action-container">
+                    <button class="input-action-btn">Send</button><button class="input-action-btn">Reset</button>
+                </div>
+            </div>
+            <div class="input-container input-box-wrapper primary label-transition" title="Primary Input box">
+                <div class="input-box-title-container">
+                    <i class="fas fa-mug-hot"></i>
+                    <h4 class="input-box-title">Primary</h4>
+                </div>
+                <input type="text" name="full_name" id="nameb3" class="input-textbox" required>
+                <label for="nameb3" class="input-label">Full name</label>
+                <div class="input-box-action-container">
+                    <button class="input-action-btn">Send</button><button class="input-action-btn">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="input-container input-box-wrapper label-transition">
+                        <div class="input-box-title-container">
+                            <h4 class="input-box-title">Regular</h4>
+                        </div>
+                        <input type="text" name="full_name" id="nameb1" class="input-textbox" required>
+                        <label for="nameb1" class="input-label">Full name</label>
+                        <div class="input-box-action-container">
+                            <button class="input-action-btn">Send</button><button class="input-action-btn">Reset</button>
+                        </div>
+                    </div>
+                    <div class="input-container input-box-wrapper inverted label-transition" title="Inverted Input box">
+                        <div class="input-box-title-container">
+                            <h4 class="input-box-title">Inverted</h4>
+                        </div>
+                        <input type="text" name="full_name" id="nameb2" class="input-textbox" required>
+                        <label for="nameb2" class="input-label">Full name</label>
+                        <div class="input-box-action-container">
+                            <button class="input-action-btn">Send</button><button class="input-action-btn">Reset</button>
+                        </div>
+                    </div>
+                    <div class="input-container input-box-wrapper primary label-transition" title="Primary Input box">
+                        <div class="input-box-title-container">
+                            <h4 class="input-box-title">Primary</h4>
+                        </div>
+                        <input type="text" name="full_name" id="nameb3" class="input-textbox" required>
+                        <label for="nameb3" class="input-label">Full name</label>
+                        <div class="input-box-action-container">
+                            <button class="input-action-btn">Send</button><button class="input-action-btn">Reset</button>
+                        </div>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Underline textbox</h2>
+        <p class="varient-desc">These Solid textboxes are easy to integrate in your html and have a cool label-transition when you click on input field.
+            <br>
+            You can customize underline input. Add any following class to your input-container to alter input box's size - <span class="class-name">sm, md, lg</span> and we also have 3 different types of colors in input - <span class="class-name">primary, olive and pop</span>. To use it, Just add the class <span class="class-name">color</span> and add any of the color mentioned above, following by an hifen(-) before.
+        <br>
+        And now you have an elegent input field with cool label transition on top of that.
+        <br>
+        Keep in mind that the <span class="class-name">for</span> attribute of label element, should match to the id of input element. Both sould be unique to another set of input textbox, if you're using multiple.</p>
+
+        <div class="comp-display-wrapper">
+            <div class="input-container underline color-primary sm label-transition" title="Primary-color Underline">
+                <input type="text" name="full_name" id="nameu1" class="input-textbox" required>
+                <label for="nameu1" class="input-label">Full name</label>
+            </div>
+            <div class="input-container underline color-olive md label-transition" title="Olive-color Underline">
+                <input type="text" name="full_name" id="nameu2" class="input-textbox" required>
+                <label for="nameu2" class="input-label">Full name</label>
+            </div>
+            <div class="input-container underline color-pop lg label-transition" title="Pop-color Underline">
+                <input type="text" name="full_name" id="nameu3" class="input-textbox" required>
+                <label for="nameu3" class="input-label">Full name</label>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="input-container underline color-primary sm label-transition" title="Primary-color Underline">
+                        <input type="text" name="full_name" id="nameu1" class="input-textbox" required>
+                        <label for="nameu1" class="input-label">Full name</label>
+                    </div>
+                    <div class="input-container underline color-olive md label-transition" title="Olive-color Underline">
+                        <input type="text" name="full_name" id="nameu2" class="input-textbox" required>
+                        <label for="nameu2" class="input-label">Full name</label>
+                    </div>
+                    <div class="input-container underline color-pop lg label-transition" title="Pop-color Underline">
+                        <input type="text" name="full_name" id="nameu3" class="input-textbox" required>
+                        <label for="nameu3" class="input-label">Full name</label>
+                    </div>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Input with error message</h2>
+        <p class="varient-desc">These Solid textboxes are easy to integrate in your html and have a cool label-transition when you click on input field.
+            <br>
+            You can customize underline input. Add any following class to your input-container to alter input box's size - <span class="class-name">sm, md, lg</span> and we also have 3 different types of colors in input - <span class="class-name">primary, olive and pop</span>. To use it, Just add the class <span class="class-name">color</span> and add any of the color mentioned above, following by an hifen(-) before.
+        <br>
+        And now you have an elegent input field with cool label transition on top of that.
+        <br>
+        Keep in mind that the <span class="class-name">for</span> attribute of label element, should match to the id of input element. Both sould be unique to another set of input textbox, if you're using multiple.</p>
+
+        <div class="comp-display-wrapper flex-centered wrap gap-3">
+            <div class="input-container md solid-input label-transition mb-4">
+                <input type="text" name="full_name" id="name9" class="input-textbox" required>
+                <label for="name9" class="input-label">Full name </label>
+                <span class="error-msg"><i class="fas fa-exclamation-triangle icon-error"></i>this is an error</span>
+            </div>
+            <div class="input-container md solid-input label-transition mb-4">
+                <input type="text" name="full_name" id="name10" class="input-textbox input-dark" required>
+                <label for="name10" class="input-label">Full name </label>
+                <span class="error-msg"><i class="fas fa-exclamation-triangle icon-error"></i>this is an error</span>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="input-container md solid-input label-transition">
+                        <input type="text" name="full_name" id="name9" class="input-textbox" required>
+                        <label for="name9" class="input-label">Full name </label>
+                        <span class="error-msg"><i class="fas fa-exclamation-triangle icon-error"></i>this is an error</span>
+                    </div>
+                    <div class="input-container md solid-input label-transition">
+                        <input type="text" name="full_name" id="name10" class="input-textbox input-primary" required>
+                        <label for="name10" class="input-label">Full name </label>
+                        <span class="error-msg"><i class="fas fa-exclamation-triangle icon-error"></i>this is an error</span>
+                    </div>
+                    <div class="input-container md solid-input label-transition">
+                        <input type="text" name="full_name" id="name11" class="input-textbox input-secondary" required>
+                        <label for="name11" class="input-label">Full name </label>
+                        <span class="error-msg"><i class="fas fa-exclamation-triangle icon-error"></i>this is an error</span>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Single line form</h2>
+        <p class="varient-desc">These Solid textboxes are easy to integrate in your html and have a cool label-transition when you click on input field.
+            <br>
+            You can customize underline input. Add any following class to your input-container to alter input box's size - <span class="class-name">sm, md, lg</span> and we also have 3 different types of colors in input - <span class="class-name">primary, olive and pop</span>. To use it, Just add the class <span class="class-name">color</span> and add any of the color mentioned above, following by an hifen(-) before.
+        <br>
+        And now you have an elegent input field with cool label transition on top of that.
+        <br>
+        Keep in mind that the <span class="class-name">for</span> attribute of label element, should match to the id of input element. Both sould be unique to another set of input textbox, if you're using multiple.</p>
+
+        <div class="comp-display-wrapper flex-centered wrap">
+                <div class="input-container md align-label label-left my-2 mx-6">
+                    <label for="name" class="input-label">Full name </label>
+                    <input type="text" name="full_name" id="name" class="input-textbox" placeholder="full name" required>
+                </div>
+                <div class="input-container md align-label label-right my-2 mx-6">
+                    <label for="name" class="input-label">Full name </label>
+                    <input type="text" name="full_name" id="name" class="input-textbox" placeholder="full name" required>
+                </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="input-container md align-label label-left my-2 mx-6">
+                        <label for="name" class="input-label">Full name </label>
+                        <input type="text" name="full_name" id="name" class="input-textbox" placeholder="full name" required>
+                    </div>
+                    <div class="input-container md align-label label-right my-2 mx-6">
+                        <label for="name" class="input-label">Full name </label>
+                        <input type="text" name="full_name" id="name" class="input-textbox" placeholder="full name" required>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Double input aligned form</h2>
+        <p class="varient-desc">These Solid textboxes are easy to integrate in your html and have a cool label-transition when you click on input field.
+            <br>
+            You can customize underline input. Add any following class to your input-container to alter input box's size - <span class="class-name">sm, md, lg</span> and we also have 3 different types of colors in input - <span class="class-name">primary, olive and pop</span>. To use it, Just add the class <span class="class-name">color</span> and add any of the color mentioned above, following by an hifen(-) before.
+        <br>
+        And now you have an elegent input field with cool label transition on top of that.
+        <br>
+        Keep in mind that the <span class="class-name">for</span> attribute of label element, should match to the id of input element. Both sould be unique to another set of input textbox, if you're using multiple.</p>
+
+        <div class="comp-display-wrapper flex-centered flex-col wrap gap-4">
+            <div class="input-container align-label label-left label-group">
+                <label for="name" class="input-label">Full name </label>
+                <input type="text" name="full_name" id="name" class="input-textbox" placeholder="first name" required>
+                <input type="text" name="full_name" id="name" class="input-textbox" placeholder="last name" required>
+            </div>
+    
+            <div class="input-container align-label label-right label-group">
+                <label for="name" class="input-label">Full name </label>
+                <input type="text" name="full_name" id="name" class="input-textbox" placeholder="first name" required>
+                <input type="text" name="full_name" id="name" class="input-textbox" placeholder="last name" required>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="input-container align-label label-left label-group">
+                        <label for="name" class="input-label">Full name </label>
+                        <input type="text" name="full_name" id="name" class="input-textbox" placeholder="first name" required>
+                        <input type="text" name="full_name" id="name" class="input-textbox" placeholder="last name" required>
+                    </div>
+            
+                    <div class="input-container align-label label-right label-group">
+                        <label for="name" class="input-label">Full name </label>
+                        <input type="text" name="full_name" id="name" class="input-textbox" placeholder="first name" required>
+                        <input type="text" name="full_name" id="name" class="input-textbox" placeholder="last name" required>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <script src="/script.js" type="text/javascript"></script>
+</body>
+</html>
