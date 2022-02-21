@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Docsite Comps CSS/Button.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Docsite | Button</title>
+</head>
+<body class="main-comp-container">
+    <section class="comp-header">
+        <h1 class="comp-title">Buttons</h1>
+        <p class="comp-desc">Buttons are available in many types and customizable assets like <span class="span-highlight"> shadow, shapes, sizes, hover effect, overlay, border, hollow</span> etc.</p>
+    </section>
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Solid Buttons</h2>
+        <p class="varient-desc">To create a solid button use the base class <span class="class-name">btn</span>, <span class="class-name">fill</span> and add any of the following class to alter size - <span class="class-name">sm, md, lg, xl</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill btn-primary btn-sm no-border br-1 cursor-pointer flex-centered">small</button>
+                <button class="btn fill btn-secondary btn-md no-border br-1 cursor-pointer flex-centered">Medium</button>
+                <button class="btn fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Large</button>
+                <button class="btn fill btn-danger btn-xl no-border br-1 cursor-pointer flex-centered">X-large</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill btn-primary btn-sm no-border br-1 cursor-pointer flex-centered">small</button>
+                    <button class="btn fill btn-secondary btn-md no-border br-1 cursor-pointer flex-centered">Medium</button>
+                    <button class="btn fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Large</button>
+                    <button class="btn fill btn-danger btn-xl no-border br-1 cursor-pointer flex-centered">X-large</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Colors of Buttons</h2>
+        <p class="varient-desc">You can customise your button's color, with your preferance. To choose different colors from <span class="span-highlight">primary, secondary, dark, danger, warning, success, info and lightgrey</span> just add the reletive class to your button component.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                <button class="btn fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                <button class="btn fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                <button class="btn fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                <button class="btn fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                <button class="btn fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Disabled Buttons</h2>
+        <p class="varient-desc">To create an disabled button use the base class <span class="class-name">btn-disabled</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn btn-disabled fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                <button class="btn btn-disabled fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn btn-disabled fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn btn-disabled fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                <button class="btn btn-disabled fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                <button class="btn btn-disabled fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                <button class="btn btn-disabled fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                <button class="btn btn-disabled fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn btn-disabled fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn btn-disabled fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn btn-disabled fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn btn-disabled fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn btn-disabled fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn btn-disabled fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn btn-disabled fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn btn-disabled fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Hover fill Buttons</h2>
+        <p class="varient-desc">To create an button with the hover effect which fills the color in button use the class <span class="class-name">hover-fill</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn outline hover-fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                <button class="btn outline hover-fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn outline hover-fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn outline hover-fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                <button class="btn outline hover-fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                <button class="btn outline hover-fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                <button class="btn outline hover-fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                <button class="btn outline hover-fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn outline hover-fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn outline hover-fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn outline hover-fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn outline hover-fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn outline hover-fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn outline hover-fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn outline hover-fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn outline hover-fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Link Buttons</h2>
+        <p class="varient-desc">To create an link button use the base class <span class="class-name">link</span> and add any of the prefered border to the button. You can choose border from our utility class.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <a class="btn link border-b-sm-black btn-primary cursor-pointer flex-centered">Primary</a>
+                <a class="btn link border-b-sm-black btn-secondary cursor-pointer flex-centered">Secondary</a>
+                <a class="btn link border-b-sm-black btn-dark cursor-pointer flex-centered">Dark</a>
+                <a class="btn link border-b-sm-black btn-danger cursor-pointer flex-centered">Danger</a>
+                <a class="btn link border-b-sm-black btn-warning cursor-pointer flex-centered">Warning</a>
+                <a class="btn link border-b-sm-black btn-success cursor-pointer flex-centered">Success</a>
+                <a class="btn link border-b-sm-black btn-info cursor-pointer flex-centered">Info</a>
+                <a class="btn link border-b-sm-black btn-lightgrey cursor-pointer flex-centered">Grey</a>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <a class="btn link border-b-sm-black btn-primary cursor-pointer flex-centered">Primary</a>
+                    <a class="btn link border-b-sm-black btn-secondary cursor-pointer flex-centered">Secondary</a>
+                    <a class="btn link border-b-sm-black btn-dark cursor-pointer flex-centered">Dark</a>
+                    <a class="btn link border-b-sm-black btn-danger cursor-pointer flex-centered">Danger</a>
+                    <a class="btn link border-b-sm-black btn-warning cursor-pointer flex-centered">Warning</a>
+                    <a class="btn link border-b-sm-black btn-success cursor-pointer flex-centered">Success</a>
+                    <a class="btn link border-b-sm-black btn-info cursor-pointer flex-centered">Info</a>
+                    <a class="btn link border-b-sm-black btn-lightgrey cursor-pointer flex-centered">Grey</a>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Shadow Buttons</h2>
+        <p class="varient-desc">To create an button component with shadow use the class <span class="class-name">shadow</span> to the button.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill shadow btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                <button class="btn fill shadow btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn fill shadow btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn fill shadow btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                <button class="btn fill shadow btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                <button class="btn fill shadow btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                <button class="btn fill shadow btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                <button class="btn fill shadow btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill shadow btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn fill shadow btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn fill shadow btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn fill shadow btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn fill shadow btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn fill shadow btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn fill shadow btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn fill shadow btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Shadow on hover Buttons</h2>
+        <p class="varient-desc">To create an button component withe shadow on hover effect use the  class <span class="class-name">hover-shadow</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill hover-shadow btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                <button class="btn fill hover-shadow btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn fill hover-shadow btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn fill hover-shadow btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                <button class="btn fill hover-shadow btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                <button class="btn fill hover-shadow btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                <button class="btn fill hover-shadow btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                <button class="btn fill hover-shadow btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill hover-shadow btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn fill hover-shadow btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn fill hover-shadow btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn fill hover-shadow btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn fill hover-shadow btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn fill hover-shadow btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn fill hover-shadow btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn fill hover-shadow btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Hollow Avatars</h2>
+        <p class="varient-desc">To create an hollow button component use the class <span class="class-name">hollow</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn hollow btn-primary btn-lg no-border br-1 cursor-pointer flex-centered black">Primary</button>
+                <button class="btn hollow btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn hollow btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn hollow btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                <button class="btn hollow btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                <button class="btn hollow btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                <button class="btn hollow btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                <button class="btn hollow btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn hollow btn-primary btn-lg no-border br-1 cursor-pointer flex-centered black">Primary</button>
+                    <button class="btn hollow btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn hollow btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn hollow btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn hollow btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn hollow btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn hollow btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn hollow btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Hollow hover filled Buttons</h2>
+        <p class="varient-desc">To create an hollow button component which fills color on hover use the class <span class="class-name">hollow hover-fill</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                    <button class="btn hollow hover-fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn hollow hover-fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn hollow hover-fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn hollow hover-fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                    <button class="btn hollow hover-fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                    <button class="btn hollow hover-fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                    <button class="btn hollow hover-fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                    <button class="btn hollow hover-fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="button-wrapper hollow-hover-button-wrapper border-b-sm-black p-6 flex-centered col-gap-7 wrap row-gap-3 my-6" title='Hover filled Hollow Buttons'>
+                        <button class="btn hollow hover-fill btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                        <button class="btn hollow hover-fill btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                        <button class="btn hollow hover-fill btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                        <button class="btn hollow hover-fill btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                        <button class="btn hollow hover-fill btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning</button>
+                        <button class="btn hollow hover-fill btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success</button>
+                        <button class="btn hollow hover-fill btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info</button>
+                        <button class="btn hollow hover-fill btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Button with icons on left</h2>
+        <p class="varient-desc">To create an button component with icons on the left side use the  class <span class="class-name">icon icon-left</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+        <button class="btn fill icon icon-left btn-primary btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Primary</button>
+        <button class="btn fill icon icon-left btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Secondary</button>
+        <button class="btn fill icon icon-left btn-dark btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Dark</button>
+        <button class="btn fill icon icon-left btn-danger btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Danger</button>
+        <button class="btn fill icon icon-left btn-warning btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Warning</button>
+        <button class="btn fill icon icon-left btn-success btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Success</button>
+        <button class="btn fill icon icon-left btn-info btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Info</button>
+        <button class="btn fill icon icon-left btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Grey</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill icon icon-left btn-primary btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Primary</button>
+                    <button class="btn fill icon icon-left btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Secondary</button>
+                    <button class="btn fill icon icon-left btn-dark btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Dark</button>
+                    <button class="btn fill icon icon-left btn-danger btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Danger</button>
+                    <button class="btn fill icon icon-left btn-warning btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Warning</button>
+                    <button class="btn fill icon icon-left btn-success btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Success</button>
+                    <button class="btn fill icon icon-left btn-info btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Info</button>
+                    <button class="btn fill icon icon-left btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered"><i class="fas fa-trash"></i>Grey</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Button with icons on right</h2>
+        <p class="varient-desc">To create an button component with icons on the right side use the  class <span class="class-name">icon icon-right</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill icon icon-right btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info<i class="fas fa-trash"></i></button>
+                <button class="btn fill icon icon-right btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey<i class="fas fa-trash"></i></button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill icon icon-right btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-warning btn-lg no-border br-1 cursor-pointer flex-centered">Warning<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-success btn-lg no-border br-1 cursor-pointer flex-centered">Success<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-info btn-lg no-border br-1 cursor-pointer flex-centered">Info<i class="fas fa-trash"></i></button>
+                    <button class="btn fill icon icon-right btn-lightgrey btn-lg no-border br-1 cursor-pointer flex-centered">Grey<i class="fas fa-trash"></i></button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Arrow hover effect Buttons</h2>
+        <p class="varient-desc">To create an button component with the arrow icon which shows cool transition on hover use the class <span class="class-name">transition-icon-btn icon icon-right</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill transition-icon-btn icon icon-right btn-primary btn-xl no-border br-1 cursor-pointer flex-centered">Primary<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-secondary btn-xl no-border br-1 cursor-pointer flex-centered">Secondary<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-dark btn-xl no-border br-1 cursor-pointer flex-centered">Dark<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-danger btn-xl no-border br-1 cursor-pointer flex-centered">Danger<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-warning btn-xl no-border br-1 cursor-pointer flex-centered">Warning<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-success btn-xl no-border br-1 cursor-pointer flex-centered">Success<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-info btn-xl no-border br-1 cursor-pointer flex-centered">Info<i class="las la-arrow-right la-lg"></i></button>
+                <button class="btn fill transition-icon-btn icon icon-right btn-lightgrey btn-xl no-border br-1 cursor-pointer flex-centered">Grey<i class="las la-arrow-right la-lg"></i></button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill transition-icon-btn icon icon-right btn-primary btn-xl no-border br-1 cursor-pointer flex-centered">Primary<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-secondary btn-xl no-border br-1 cursor-pointer flex-centered">Secondary<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-dark btn-xl no-border br-1 cursor-pointer flex-centered">Dark<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-danger btn-xl no-border br-1 cursor-pointer flex-centered">Danger<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-warning btn-xl no-border br-1 cursor-pointer flex-centered">Warning<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-success btn-xl no-border br-1 cursor-pointer flex-centered">Success<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-info btn-xl no-border br-1 cursor-pointer flex-centered">Info<i class="las la-arrow-right la-lg"></i></button>
+                    <button class="btn fill transition-icon-btn icon icon-right btn-lightgrey btn-xl no-border br-1 cursor-pointer flex-centered">Grey<i class="las la-arrow-right la-lg"></i></button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Icon only Button</h2>
+        <p class="varient-desc">To create an icon only button component just add the icon at the place of button and use the classes mentioned below.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <i class="btn fill shadow btn-primary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-secondary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-dark btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-danger btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-warning btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-success btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-info btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn fill shadow btn-lightgrey btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <i class="btn fill shadow btn-primary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-secondary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-dark btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-danger btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-warning btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-success btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-info btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn fill shadow btn-lightgrey btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Icon only hover filled Buttons</h2>
+        <p class="varient-desc">To create an icon only button which fills the color on hover use the  class <span class="class-name"> hover-fill</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <i class="btn outline hover-fill btn-primary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-secondary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-dark btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-danger btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-warning btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-success btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-info btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn outline hover-fill btn-lightgrey btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <i class="btn outline hover-fill btn-primary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-secondary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-dark btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-danger btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-warning btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-success btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-info btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn outline hover-fill btn-lightgrey btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Simple icon only Buttons</h2>
+        <p class="varient-desc">To create an simple icon only button just add the icons at the place of buttons.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <i class="btn hollow btn-primary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-secondary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-dark btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-danger btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-warning btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-success btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-info btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                <i class="btn hollow btn-lightgrey btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <i class="btn hollow btn-primary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-secondary btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-dark btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-danger btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-warning btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-success btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-info btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                    <i class="btn hollow btn-lightgrey btn-sm no-border br-1 cursor-pointer flex-centered fas fa-trash"></i>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Full width Buttons</h2>
+        <p class="varient-desc">To create an full width button component use the class <span class="class-name">full-width</span> .</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <button class="btn fill full-width btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                <button class="btn fill full-width btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                <button class="btn fill full-width btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                <button class="btn fill full-width btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <button class="btn fill full-width btn-primary btn-lg no-border br-1 cursor-pointer flex-centered">Primary</button>
+                    <button class="btn fill full-width btn-secondary btn-lg no-border br-1 cursor-pointer flex-centered">Secondary</button>
+                    <button class="btn fill full-width btn-dark btn-lg no-border br-1 cursor-pointer flex-centered">Dark</button>
+                    <button class="btn fill full-width btn-danger btn-lg no-border br-1 cursor-pointer flex-centered">Danger</button>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Floating Buttons</h2>
+        <p class="varient-desc">To create an button component which floats on 4 different directions on your place and sticks there use the base class <span class="class-name">float-round-btn</span> and add any of the following class to alter position - <span class="class-name">botton-r, bottom-l, top-r, top-l</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <i class="btn fill hover-shadow bottom-r float-round-btn btn-primary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+                <i class="btn fill hover-shadow bottom-l float-round-btn btn-secondary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+                <i class="btn fill hover-shadow top-r float-round-btn btn-dark btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+                <i class="btn fill hover-shadow top-l float-round-btn btn-danger btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <i class="btn fill hover-shadow bottom-r float-round-btn btn-primary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                    <i class="btn fill hover-shadow bottom-l float-round-btn btn-secondary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                    <i class="btn fill hover-shadow top-r float-round-btn btn-dark btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                    <i class="btn fill hover-shadow top-l float-round-btn btn-danger btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <p class="varient-desc">To create an outlined button component which floats on 4 different directions on your place and sticks there use the base class <span class="class-name">outline float-round-btn</span> and add any of the following class to alter position - <span class="class-name">botton-r, bottom-l, top-r, top-l</span>.</p>
+        <div class="comp-display-wrapper">
+            <div class="avatar-container wrap flex-centered col-gap-4 row-gap-5">
+                <i class="btn outline hover-fill hover-shadow bottom-r float-round-btn btn-primary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+                <i class="btn outline hover-fill hover-shadow bottom-l float-round-btn btn-secondary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+                <i class="btn outline hover-fill hover-shadow top-r float-round-btn btn-dark btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+                <i class="btn outline hover-fill hover-shadow top-l float-round-btn btn-danger btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up"></i>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <i class="btn outline hover-fill hover-shadow bottom-r float-round-btn btn-primary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                    <i class="btn outline hover-fill hover-shadow bottom-l float-round-btn btn-secondary btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                    <i class="btn outline hover-fill hover-shadow top-r float-round-btn btn-dark btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                    <i class="btn outline hover-fill hover-shadow top-l float-round-btn btn-danger btn-md no-border br-6 cursor-pointer flex-centered fas fa-arrow-up hidden"></i>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <script src="/script.js" type="text/javascript"></script>
+        
+
+</script>
+</body>
+</html>
