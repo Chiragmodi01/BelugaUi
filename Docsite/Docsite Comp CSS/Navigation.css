@@ -1,0 +1,96 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+.header_main_brand-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.header {
+    background-color: white;
+}
+.header_top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1.5rem;
+    border-bottom: 1px solid #e9e9e9;
+}
+.header_top_location {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-map-pin {
+    border-right: 1px solid #e9e9e9;
+    padding-right: 1rem;
+}
+.header_top_actions-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+/* header main */
+.header_main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e9e9e9;
+}
+.header_main_nav-pills-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.header_main_nav-pill {
+    padding: 0 1rem;
+}
+.header_main_nav-actions-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header_main_nav-action-icons-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 1px solid #e9e9e9;
+}
+.header_main_nav-search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_main_nav-search-box {
+    outline: none;
+    border: none;
+    padding: .4rem;
+    width: 5rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.header_promotional-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e9e9e9;
+    padding: .3rem 1.5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    background-color: var(--white);
+    width: 100%;
+}
+.header_promotional_text {
+    flex-grow: 1;
+}
+.header_promotional_icon-dismiss {
+    display: inline-flex;
+    justify-content: flex-end;
+}
