@@ -1,0 +1,178 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+
+.border-lg-white {
+    border-color: var(--primary-light);
+}
+
+/* Group */
+.avatar-group > .avatar:first-child{
+    margin-left: 0;
+}
+.avatar-group-xxs > .avatar{
+    margin-left: -1rem;
+}
+.avatar-group-xs > .avatar{
+    margin-left: -1.2rem;
+}
+.avatar-group-sm > .avatar{
+    margin-left: -1.5rem;
+}
+.avatar-group-md > .avatar{
+    margin-left: -2rem;
+}
+.avatar-group-lg > .avatar{
+    margin-left: -3rem;
+}
+.avatar-group-xl > .avatar{
+    margin-left: -4rem;
+}
+.avatar-group-xxl > .avatar{
+    margin-left: -5rem;
+}
+
+
+/* SIZE */
+
+.avatar-xxs {
+    width: 2rem;
+    height: 2rem;
+}
+.avatar-xs {
+    width: 3rem;
+    height: 3rem;
+}
+.avatar-sm {
+    width: 4rem;
+    height: 4rem;
+}
+.avatar-md {
+    width: 6rem;
+    height: 6rem;
+}
+.avatar-lg {
+    width: 8rem;
+    height: 8rem;
+}
+.avatar-xl {
+    width: 10rem;
+    height: 10rem;
+}
+.avatar-xxl {
+    width: 12rem;
+    height: 12rem;
+}
+
+/* img round */
+.round {
+    border-radius: 100%;
+}
+
+/* Overlay item on image, on hover */
+.img-hover-overlay {
+    position: relative;
+    font-family: 'Monteserrat', sans-serif;
+}
+.img-hover-overlay > .avatar {
+    transition: all .4s ease;
+}
+.img-hover-overlay:hover > .avatar{
+    filter: brightness(50%);
+    transition: all .4s ease;
+}
+.img-hover-overlay:hover > .img-hover-overlay-item{
+    visibility: visible;
+}
+.img-hover-overlay-item{
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.641);
+}
+.overlay-sm {
+    height: 2rem;
+    width: 4rem;
+    font-size: .8rem;
+}
+.overlay-round.overlay-sm {
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+.overlay-md {
+    height: 3rem;
+    width: 6rem;
+}
+.overlay-round.overlay-md {
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+}
+.overlay-lg {
+    height: 4rem;
+    width: 8rem;
+}
+.overlay-round.overlay-lg {
+    border-bottom-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+}
+.overlay-xl {
+    height: 5rem;
+    width: 10rem;
+}
+.overlay-round.overlay-xl {
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+.overlay-xxl {
+    height: 6rem;
+    width: 12rem;
+}
+.overlay-round.overlay-xxl {
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+}
+.overlay-xs {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.1rem;
+}
+.overlay-round.overlay-xs {
+    border-radius: 50%;
+}
+.overlay-xs > .img-overlay-text{
+    display: none;
+}
+.overlay-xs::after{
+    content: '+';
+}
+.overlay-xxs {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+}
+.overlay-round.overlay-xxs {
+    border-radius: 50%;
+}
+.overlay-xxs > .img-overlay-text{
+    display: none;
+}
+.overlay-xxs::after{
+    content: '+';
+}
+
+/* Avatar text */
+.avatar-text {
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .avatar-group > .avatar:nth-child(1n) {
+        width: 6rem;
+        height: 6rem;
+    }
+}

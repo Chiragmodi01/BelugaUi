@@ -1,0 +1,103 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+
+.alert-primary {
+    color: var(--primary-medium);
+    background-color: var(--primary-light);
+}
+.alert-secondary {
+    color: var(--primary-dark);
+    background-color: var(--snack-secondary-bg);
+}
+.alert-dark {
+    color: var(--primary-bold);
+    background-color: var(--snack-dark-bg);
+}
+.alert-lightgrey {
+    color: var(--snack-lightgrey);
+    background-color: var(--snack-lightgrey-bg);
+}
+.alert-success {
+    color: var(--snack-success);
+    background-color: var(--snack-success-bg);
+}
+.alert-warning {
+    color: var(--snack-warning);
+    background-color: var(--snack-warning-bg);
+}
+.alert-error {
+    color: var(--snack-error);
+    background-color: var(--snack-error-bg);
+}
+.alert-info {
+    color: var(--snack-info);
+    background-color: var(--snack-info-bg);
+}
+
+.alert {
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.outline-alert {
+    background-color: transparent;
+    border: 2px solid;
+}
+.border-left-alert {
+    border-left: 5px solid;
+}
+.shadow-alert {
+    box-shadow: -1px 1px 6px 0 rgb(0 0 0 / 30%);
+}
+.border-alert {
+    border:2px solid;
+}
+
+.icon-start {
+    padding-right: .7rem;
+}
+.alert-end {
+    margin-left: auto;
+    cursor: pointer;
+}
+.alert-action-btn {
+    margin-left: auto;
+    margin-right: 1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: inherit;
+    background-color: transparent;
+    border: 1px solid;
+}
+.alert-action-btn {
+    margin-right: 1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: inherit;
+    background-color: transparent;
+    border: 1px solid;
+    font-weight: bold;
+}
+.la-times:hover , .alert-action-btn:hover{
+    color: var(--white);
+}
+.alert-link::before, .alert-link::after {
+    content: '\00A0';
+}
+.alert-link {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: inherit;
+}
+.alert-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: from-font;
+}
