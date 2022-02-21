@@ -1,0 +1,133 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+.color-card.primary-light {
+    background-color: var(--primary-light);
+}
+.color-card.primary-color {
+    background-color: var(--primary-color);
+}
+.color-card.primary-hover {
+    background-color: var(--primary-hover);
+}
+
+.color-card.medium-light {
+    background-color: var(--medium-light);
+}
+.color-card.primary-medium {
+    background-color: var(--primary-medium);
+}
+.color-card.primary-medium-hover {
+    background-color: var(--medium-hover);
+}
+
+.color-card.dark-light {
+    background-color: var(--dark-light);
+}
+.color-card.primary-dark {
+    background-color: var(--primary-dark);
+}
+.color-card.primary-dark-hover {
+    background-color: var(--dark-hover);
+}
+.color-card.primary-bold {
+    background-color: var(--primary-bold);
+}
+
+.color-card.info-color {
+    background-color: var(--info-color);
+}
+.color-card.info-light {
+    background-color: var(--info-light);
+}
+.color-card.info-hover {
+    background-color: var(--info-hover);
+}
+.color-card.info-bg {
+    background-color: var(--info-bg);
+}
+
+.color-card.warning-color {
+    background-color: var(--warning-color);
+}
+.color-card.warning-light {
+    background-color: var(--warning-light);
+}
+.color-card.warning-hover {
+    background-color: var(--warning-hover);
+}
+.color-card.warning-bg {
+    background-color: var(--warning-bg);
+}
+
+.color-card.danger-color {
+    background-color: var(--danger-color);
+}
+.color-card.danger-light {
+    background-color: var(--danger-light);
+}
+.color-card.danger-hover {
+    background-color: var(--danger-hover);
+}
+.color-card.danger-bg {
+    background-color: var(--danger-bg);
+}
+
+.color-card.success-color {
+    background-color: var(--success-color);
+}
+.color-card.success-light {
+    background-color: var(--success-light);
+}
+.color-card.success-hover {
+    background-color: var(--success-hover);
+}
+.color-card.success-bg {
+    background-color: var(--success-bg);
+}
+
+.color-card.grey-light {
+    background-color: var(--light-grey);
+}
+.color-card.grey-hover {
+    background-color: var(--grey-hover);
+}
+.color-card.grey {
+    background-color: var(--grey);
+}
+
+.color-card.white {
+    background-color: var(--white);
+}
+.color-card.black {
+    background-color: var(--black);
+}
+.color-card.linkblue {
+    background-color: var(--linkblue);
+}
+
+.color-card {
+    height: 10rem;
+    width: 7rem;
+    border: 1px solid black;
+}
+.colors-comp-display  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.color-card-group-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.color-card-desc {
+    font-family: 'Inconsolata', monospace;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+@import url('/Docsite/Docsite\ Comps\ CSS/Avatar.css');
+
+.avatar-text {
+    background-color: var(--primary-color);
+}
+.border-lg-white {
+    border-color: var(--white);
+}

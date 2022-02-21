@@ -1,0 +1,48 @@
+@import url('/styles/variables.css');
+
+/* background color */
+.bg_white {
+    background-color: var(--white);
+}
+.bg_black {
+    background-color: var(--black);
+}
+.bg_grey {
+    background-color: var(--grey);
+}
+.bg_lightgrey {
+    background-color: var(--light-grey);
+}
+
+.bg_primary {
+    background-color: var(--primary-color);
+}
+.bg_secondary {
+    background-color: var(--primary-medium);
+}
+.bg_dark {
+    background-color: var(--primary-dark);
+}
+.bg_info {
+    background-color: var(--info-bg);
+}
+.bg_success {
+    background-color: var(--success-bg);
+}
+.bg_danger {
+    background-color: var(--danger-bg);
+}
+.bg_warning {
+    background-color: var(--warning-bg);
+}
+
+/* color */
+.white {
+    color: var(--white);
+}
+.black {
+    color: var(--black);
+}
+.lightgrey {
+    color: var(--light-grey);
+}

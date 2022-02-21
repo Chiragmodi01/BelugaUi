@@ -1,0 +1,77 @@
+:root {
+    --primary-light: rgb(153, 255, 255);
+    --primary-color: rgb(51, 255, 255);
+    --primary-hover: rgba(23, 227, 227);
+
+    --medium-light: rgba(0, 153, 153, 0.5);
+    --primary-medium: rgb(0, 153, 153);
+    --medium-hover: rgba(0, 153, 153, 0.75);
+
+    --dark-light: rgba(0, 102, 102, 0.6);
+    --primary-dark: rgb(0, 102, 102);
+    --dark-hover: rgba(0, 102, 102, 0.75);
+
+    --primary-bold: rgb(0, 51, 51);
+
+    --info-light: rgba(33, 150, 243, 0.5);
+    --info-color: rgb(221 255 255);
+    --info-bg: rgb(33 150 243);
+    --info-hover: rgba(33, 150, 243, 0.75);
+
+    --warning-light: rgba(255, 235, 59, 0.5);
+    --warning-color: rgb(255 255 204); 
+    --warning-bg: rgb(255 235 59);
+    --warning-hover: rgb(235, 215, 39);
+
+    --danger-light: rgba(244, 67, 54, 0.5);
+    --danger-color: rgb(255 221 221);
+    --danger-bg: rgb(244 67 54);
+    --danger-hover: rgba(244, 67, 54, 0.75);
+
+    --success-light: rgba(76, 175, 80, 0.5);
+    --success-color: rgb(221 255 221);
+    --success-bg: rgb(76 175 80);
+    --success-hover: rgba(76, 175, 80, 0.75);
+
+    --light-grey: rgb(161 161 170);
+    --grey-hover: rgba(113, 113, 122, .9);
+    --grey: rgb(113 113 122);
+    --dark-grey: rgb(63 63 70);
+
+    --linkblue: rgb(98, 0, 238);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+
+    --snack-secondary-bg : rgba(51, 204, 204, 0.6);
+    --snack-dark-bg : rgba(51, 153, 153, 0.6);
+    --snack-lightgrey : rgb(129, 129, 130);
+    --snack-lightgrey-bg : rgb(241, 241, 241);
+    --snack-success : rgb(21, 86, 36);
+    --snack-success-bg :  rgb(194, 229, 202);
+    --snack-warning: rgb(133, 100, 4);
+    --snack-warning-bg: rgb(255, 238, 186);
+    --snack-error: rgb(114, 28, 36);
+    --snack-error-bg : rgb(245, 198, 203);
+    --snack-info: rgb(49, 112, 143);
+    --snack-info-bg : rgb(217, 237, 247);
+
+    /* --grey-highlight: ; */
+    --box-shadow-light: 0px 0px 6px 0px var(--dark-hover);
+    --box-shadow-dark: 0px 0px 6px 0px var(--primary-dark);
+
+    --font-light: 300;
+    --font-medium: 400;
+    --font-semi-bold: 500;
+    --font-bold: 600;
+
+    --margin: 0.25rem;
+    --padding: 0.25rem;
+
+    --border-radius: 0.3rem;
+
+    --gap: 0.3rem;
+    --flex-gap: 0.15rem;
+    --border: 1px;
+
+    --inverted-input-box-bg: rgb(51 51 51);
+}

@@ -1,0 +1,14 @@
+@import url('/styles/variables.css');
+
+.border-box {
+    box-sizing: border-box;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.box-shadow {
+    box-shadow: var(--default-box-shadow);
+}
+.hidden {
+    visibility: hidden;
+}

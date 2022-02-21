@@ -1,0 +1,140 @@
+@import url('/styles/variables.css');
+
+/* xs, sm, md, lg */
+.no-border {
+    border: none;
+}
+
+.border-xs-black {
+    border: calc(1 * var(--border)) solid var(--black);
+}
+.border-sm-black {
+    border: calc(2 * var(--border)) solid var(--black);
+}
+.border-md-black {
+    border: calc(3 * var(--border)) solid var(--black);
+}
+.border-lg-black {
+    border: calc(4 * var(--border)) solid var(--black);
+}
+
+.border-xs-white {
+    border: calc(1 * var(--border)) solid var(--white);
+}
+.border-sm-white {
+    border: calc(2 * var(--border)) solid var(--white);
+}
+.border-md-white {
+    border: calc(3 * var(--border)) solid var(--white);
+}
+.border-lg-white {
+    border: calc(4 * var(--border)) solid var(--white);
+}
+
+.border-b-xs-black {
+    border-bottom: calc(1 * var(--border)) solid var(--black);
+}
+.border-b-sm-black {
+    border-bottom: calc(2 * var(--border)) solid var(--black);
+}
+.border-b-md-black {
+    border-bottom: calc(3 * var(--border)) solid var(--black);
+}
+.border-b-lg-black {
+    border-bottom: calc(4 * var(--border)) solid var(--black);
+}
+
+
+.border-b-xs-white {
+    border-bottom: calc(1 * var(--border)) solid var(--white);
+}
+.border-b-sm-white {
+    border-bottom: calc(2 * var(--border)) solid var(--white);
+}
+.border-b-md-white {
+    border-bottom: calc(3 * var(--border)) solid var(--white);
+}
+.border-b-lg-white {
+    border-bottom: calc(4 * var(--border)) solid var(--white);
+}
+
+.border-r-xs-black {
+    border-right: calc(1 * var(--border)) solid var(--black);
+}
+.border-r-sm-black {
+    border-right: calc(2 * var(--border)) solid var(--black);
+}
+.border-r-md-black {
+    border-right: calc(3 * var(--border)) solid var(--black);
+}
+.border-r-lg-black {
+    border-right: calc(4 * var(--border)) solid var(--black);
+}
+
+
+.border-r-xs-white {
+    border-right: calc(1 * var(--border)) solid var(--white);
+}
+.border-r-sm-white {
+    border-right: calc(2 * var(--border)) solid var(--white);
+}
+.border-r-md-white {
+    border-right: calc(3 * var(--border)) solid var(--white);
+}
+.border-r-lg-white {
+    border-right: calc(4 * var(--border)) solid var(--white);
+}
+
+.border-l-xs-black {
+    border-left: calc(1 * var(--border)) solid var(--black);
+}
+.border-l-sm-black {
+    border-left: calc(2 * var(--border)) solid var(--black);
+}
+.border-l-md-black {
+    border-left: calc(3 * var(--border)) solid var(--black);
+}
+.border-l-lg-black {
+    border-left: calc(4 * var(--border)) solid var(--black);
+}
+
+
+.border-l-xs-white {
+    border-left: calc(1 * var(--border)) solid var(--white);
+}
+.border-l-sm-white {
+    border-left: calc(2 * var(--border)) solid var(--white);
+}
+.border-l-md-white {
+    border-left: calc(3 * var(--border)) solid var(--white);
+}
+.border-l-lg-white {
+    border-left: calc(4 * var(--border)) solid var(--white);
+}
+
+.border-t-xs-black {
+    border-top: calc(1 * var(--border)) solid var(--black);
+}
+.border-t-sm-black {
+    border-top: calc(2 * var(--border)) solid var(--black);
+}
+.border-t-md-black {
+    border-top: calc(3 * var(--border)) solid var(--black);
+}
+.border-t-lg-black {
+    border-top: calc(4 * var(--border)) solid var(--black);
+}
+
+
+.border-t-xs-white {
+    border-top: calc(1 * var(--border)) solid var(--white);
+}
+.border-t-sm-white {
+    border-top: calc(2 * var(--border)) solid var(--white);
+}
+.border-t-md-white {
+    border-top: calc(3 * var(--border)) solid var(--white);
+}
+.border-t-lg-white {
+    border-top: calc(4 * var(--border)) solid var(--white);
+}

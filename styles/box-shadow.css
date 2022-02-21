@@ -1,0 +1,26 @@
+@import url('/styles/variables.css');
+
+/* sm, md, lg */
+.shadow-default {
+    box-shadow: var(--box-shadow-light);
+}
+
+.shadow-soft-sm {
+    box-shadow: 0px 0px 6px 0px var(--primary-dark);
+}
+.shadow-soft-md {
+    box-shadow: 0px 0px 10px 0px var(--primary-dark);
+}
+.shadow-soft-lg {
+    box-shadow: 0px 0px 15px 0px var(--primary-dark);
+}
+
+.shadow-dark-sm {
+    box-shadow: 0px 0px 6px 0px var(--primary-bold);
+}
+.shadow-dark-md {
+    box-shadow: 0px 0px 10px 0px var(--primary-bold);
+}
+.shadow-dark-lg {
+    box-shadow: 0px 0px 15px 0px var(--primary-bold);
+}
