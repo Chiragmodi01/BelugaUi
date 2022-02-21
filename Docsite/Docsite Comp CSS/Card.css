@@ -1,4 +1,5 @@
-@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+@import url('Comp.css');
+
 .each-card-wrapper {
     display: flex;
     flex-direction: column;
