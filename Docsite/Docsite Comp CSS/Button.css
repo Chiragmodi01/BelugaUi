@@ -1,0 +1,365 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+.float-round-btn {
+    position: inherit !important;
+}
+
+
+.btn {
+    color: var(--white);
+    font-size: 1rem;
+    width: max-content;
+    padding: 0.4rem 1rem;
+    display: inline-flex !important;
+}
+a.btn {
+    box-sizing: border-box;
+}
+ /* sizes sm, md, lg, xl*/
+.btn-sm {
+    height: 1.5rem;
+    width: 3rem;
+}
+.btn-md {
+    height: 1.6rem;
+    width: 5rem;
+}
+.btn-lg {
+    height: 2.1rem;
+    width: 7rem;
+}
+.btn-xl {
+    height: 2.5rem;
+    width: 8rem;
+}
+
+.float-round-btn.bottom-r{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+.float-round-btn.top-r {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+}
+.float-round-btn.bottom-l {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+}
+.float-round-btn.top-l{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+}
+.float-round-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: .5rem;
+}
+
+.float-round-btn.btn-sm {
+    height: 2rem;
+    width: 2rem;
+}
+.float-round-btn.btn-md {
+    height: 2.1rem;
+    width: 2.1rem;
+}
+.float-round-btn.btn-lg {
+    height: 2.2rem;
+    width: 2.2rem;
+}
+.float-round-btn.btn-xl {
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+/* fill colors */
+.fill.btn-primary {
+    background-color: var(--primary-color);
+}
+.fill.btn-secondary {
+    background-color: var(--primary-medium);
+}
+.fill.btn-dark {
+    background-color: var(--primary-dark);
+}
+.fill.btn-danger {
+    background-color: var(--danger-bg);
+}
+.fill.btn-info {
+    background-color: var(--info-bg);
+}
+.fill.btn-success {
+    background-color: var(--success-bg);
+}
+.fill.btn-warning {
+    background-color: var(--warning-bg);
+}
+.fill.btn-lightgrey {
+    background-color: var(--light-grey);
+}
+
+/* fill hover */
+.fill.btn-primary:hover {
+    background-color: var(--primary-hover);
+    transition: .2s ease;
+}
+.fill.btn-secondary:hover {
+    background-color: var(--medium-hover);
+    transition: .2s ease;
+}
+.fill.btn-dark:hover {
+    background-color: var(--dark-hover);
+    transition: .2s ease;
+}
+.fill.btn-danger:hover {
+    background-color: var(--danger-hover);
+    transition: .2s ease;
+}
+.fill.btn-info:hover {
+    background-color: var(--info-hover);
+    transition: .2s ease;
+}
+.fill.btn-success:hover {
+    background-color: var(--success-hover);
+    transition: .2s ease;
+}
+.fill.btn-warning:hover {
+    background-color: var(--warning-hover);
+    transition: .2s ease;
+}
+.fill.btn-lightgrey:hover {
+    background-color: var(--grey-hover);
+    transition: .2s ease;
+}
+
+/* hollow hover */
+.hollow.btn-primary:hover {
+    color: var(--primary-hover);
+    transition: .2s ease;
+}
+.hollow.btn-secondary:hover {
+    color: var(--medium-hover);
+    transition: .2s ease;
+}
+.hollow.btn-dark:hover {
+    color: var(--dark-hover);
+    transition: .2s ease;
+}
+.hollow.btn-danger:hover {
+    color: var(--danger-hover);
+    transition: .2s ease;
+}
+.hollow.btn-info:hover {
+    color: var(--info-hover);
+    transition: .2s ease;
+}
+.hollow.btn-success:hover {
+    color: var(--success-hover);
+    transition: .2s ease;
+}
+.hollow.btn-warning:hover {
+    color: var(--warning-hover);
+    transition: .2s ease;
+}
+.hollow.btn-lightgrey:hover {
+    color: var(--grey-hover);
+    transition: .2s ease;
+}
+
+.btn.btn-primary, .btn.btn-warning {
+    color: var(--black);
+}
+
+/* outline */
+.float-round-btn.outline {
+    border: 2px solid;
+    background-color: transparent;
+}
+
+.outline.btn-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.outline.btn-secondary {
+    border-color: var(--primary-medium);
+    color: var(--primary-medium);
+}
+.outline.btn-dark {
+    border-color: var(--primary-dark);
+    color: var(--primary-dark);
+}
+.outline.btn-danger {
+    border-color: var(--danger-bg);
+    color: var(--danger-bg);
+}
+.outline.btn-info {
+    border-color: var(--info-bg);
+    color: var(--info-bg);
+}
+.outline.btn-success {
+    border-color: var(--success-bg);
+    color: var(--success-bg);
+}
+.outline.btn-warning {
+    border-color: var(--warning-bg);
+    color: var(--warning-bg);
+}
+.outline.btn-lightgrey {
+    border-color: var(--light-grey);
+    color: var(--light-grey);
+}
+
+/* outline hover */
+.hover-fill.btn-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-secondary:hover {
+    background-color: var(--primary-medium);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-dark:hover {
+    background-color: var(--primary-dark);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-danger:hover {
+    background-color: var(--danger-bg);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-info:hover {
+    background-color: var(--info-bg);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-success:hover {
+    background-color: var(--success-bg);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-warning:hover {
+    background-color: var(--warning-bg);
+    color: var(--white);
+    transition: .2s ease;
+}
+.hover-fill.btn-lightgrey:hover {
+    background-color: var(--light-grey);
+    color: var(--white);
+    transition: .2s ease;
+}
+
+/* shadow */
+.btn.shadow {
+    box-shadow: var(--box-shadow-light);
+}
+
+.hover-shadow:hover {
+    box-shadow: var(--box-shadow-light);
+}
+
+/* hollow */
+.hollow {
+    background-color: transparent;
+    border: none;
+}
+.hollow.btn-primary {
+    color: var(--primary-color);
+}
+.hollow.btn-secondary {
+    color: var(--primary-medium);
+}
+.hollow.btn-dark {
+    color: var(--primary-dark);
+}
+.hollow.btn-danger {
+    color: var(--danger-bg);
+}
+.hollow.btn-info {
+    color: var(--info-bg);
+}
+.hollow.btn-success {
+    color: var(--success-bg);
+}
+.hollow.btn-warning {
+    color: var(--warning-bg);
+}
+.hollow.btn-lightgrey {
+    color: var(--light-grey);
+}
+
+/* icon */
+.icon {
+    justify-content: space-evenly;
+}
+
+/* full width */
+.btn.full-width {
+    flex-basis: 100%;
+}
+
+/* show-floating-icon-buttons */
+input[type=checkbox]#show-floating:checked ~ .float-round-btn.hidden{
+    visibility: visible;
+}
+
+/* transition icon button */
+.transition-icon-btn:hover .las {
+    transform: translateX(.4em);
+    transition: .3s all .1s;
+}
+.transition-icon-btn > .las{
+    transition: .4s all;
+}
+
+/* link */
+.link {
+    background-color: transparent;
+    color: black;
+}
+.link.btn-primary:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.link.btn-secondary:hover {
+    color: var(--primary-medium);
+    border-color: var(--primary-medium);
+}
+.link.btn-dark:hover {
+    color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.link.btn-danger:hover {
+    color: var(--danger-bg);
+    border-color: var(--danger-bg);
+}
+.link.btn-info:hover {
+    color: var(--info-bg);
+    border-color: var(--info-bg);
+}
+.link.btn-success:hover {
+    color: var(--success-bg);
+    border-color: var(--success-bg);
+}
+.link.btn-warning:hover {
+    color: var(--warning-bg);
+    border-color: var(--warning-bg);
+}
+.link.btn-lightgrey:hover {
+    color: var(--light-grey);
+    border-color: var(--light-grey);
+}
+
+/* disabled */
+.btn-disabled {
+    opacity: .7;
+    pointer-events: none;
+    filter: contrast(.8);
+}
