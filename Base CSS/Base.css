@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&display=swap');
+
+@import url('/styles/margin.css');
+@import url('/styles/padding.css');
+@import url('/styles/border-radius.css');
+@import url('/styles/flex.css');
+@import url('/styles/display.css');
+@import url('/styles/border.css');
+@import url('/styles/color.css');
+@import url('/styles/reset.css');
+@import url('/styles/utils.css');
+@import url('/styles/list.css');
+@import url('/styles/box-shadow.css');
+@import url('/styles/font-size.css');
+@import url('/styles/variables.css');
+
+:root {
+    --lightgrey: rgba(239, 239, 239, 65%);
+    --midgrey: rgba(0,0,0,.50);
+    --grey: rgba(0,0,0,.74);
+    --dark-soft: rgba(0, 0, 0, 0.700);
+}
+HTML {
+    font-size: 100%;
+    font-family: 'Monteserrat', sans-serif;
+}
+body {
+    margin: 0;
+}
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: var(--primary-hover);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, var(--primary-medium));
+    border-radius: 8px;
+    filter: blur(30px);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, var(--primary-dark));
+}

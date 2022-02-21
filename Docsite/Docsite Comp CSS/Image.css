@@ -1,0 +1,23 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+
+.image-container {
+    margin: auto;
+}
+.poster-image-container {
+    max-width: 80vw;
+}
+.img-responsive {
+    width: 100%;
+    object-fit: cover;
+}
+.round-img-container {
+    border-radius: 100%;
+}
+.round-img-container, .square-img-container {
+    max-height: 250px;
+    max-width: 250px;
+}
+.round-img-container > .img-responsive{
+    border-radius: 100%;
+}
