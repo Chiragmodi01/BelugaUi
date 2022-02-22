@@ -60,12 +60,14 @@ const navAsideWrapper = document.querySelector('.nav-aside-wrapper');
 arrowMenu.addEventListener('click', openLeftNav);
 function openLeftNav() {
     if(docsideAside.style.display = 'none') {
+        console.log('clicked!')
         docsideAside.style.display = 'flex';
         docsideAside.style.width = '100vw';
         navAsideWrapper.style.width = '100vw';
         arrowMenu.innerText = '<';
     } else if(docsideAside.style.display = 'flex') {
         docsideAside.style.display = 'none';
-        console.log('arrow clicked');
+        docsideAside.style.width = '0vw';
+        navAsideWrapper.style.width = '0vw';
     }
 }

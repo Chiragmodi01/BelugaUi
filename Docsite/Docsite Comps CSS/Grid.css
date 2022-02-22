@@ -1,4 +1,4 @@
-@import url('/Docsite/Docsite\ Comps\ CSS/Avatar.css');
+@import url('Avatar.css');
 
 .grid-comp-wrapper {
     background-color: var(--medium-light);
