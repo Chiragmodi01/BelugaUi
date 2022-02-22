@@ -1,7 +1,6 @@
 <div align="center">
 
-![beluga-whale](https://user-images.githubusercontent.com/75688193/155062822-434de26e-0d51-4a5b-b61a-f996781e08f3.png)
-
+<img src="https://user-images.githubusercontent.com/75688193/155062822-434de26e-0d51-4a5b-b61a-f996781e08f3.png" width="220" height="170" alt="Beluga UI logo">
 
 # Beluga UI
 
@@ -228,5 +227,10 @@ BelugaUI has many utility classes and variables
 <a href="https://www.linkedin.com/in/chirag-modi-582655202/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 ---
+
+<div align="center">
+
 ![screen-capture belugaui-2](https://user-images.githubusercontent.com/75688193/155062777-b6150153-eb02-4e8c-9aff-00b3e5d996a8.gif)
+
+</div>
 
