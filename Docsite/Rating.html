@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Docsite Comps CSS/Rating.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Docsite | Rating</title>
+</head>
+<body class="main-comp-container">
+    <section class="comp-header">
+        <h1 class="comp-title">Rating</h1>
+        <p class="comp-desc">Rating component can be used at e-commerce or any webpage where user is rating any particular product or item.</p>
+    </section>
+
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Star Rating</h2>
+        <p class="varient-desc">Below rating component shows 5 star icons, user can hover on each of them and choose how much star to select and those selected will show color orange. <br>
+        Selected stars can be reselected again.</p>
+        <div class="comp-display-wrapper flex-centered">
+            <div class="rating-group">
+                <input disabled checked class="rating_input rating_input--none" name="rating" id="rating-none" value="0" type="radio">
+        
+                <label aria-label="1 star" class="rating_label" for="rating-1"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                <input class="rating_input" name="rating" id="rating-1" value="1" type="radio">
+        
+                <label aria-label="2 stars" class="rating_label" for="rating-2"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                <input class="rating_input" name="rating" id="rating-2" value="2" type="radio">
+        
+                <label aria-label="3 stars" class="rating_label" for="rating-3"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                <input class="rating_input" name="rating" id="rating-3" value="3" type="radio">
+        
+                <label aria-label="4 stars" class="rating_label" for="rating-4"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                <input class="rating_input" name="rating" id="rating-4" value="4" type="radio">
+        
+                <label aria-label="5 stars" class="rating_label" for="rating-5"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                <input class="rating_input" name="rating" id="rating-5" value="5" type="radio">
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="rating-group">
+                        <input disabled checked class="rating_input rating_input--none" name="rating" id="rating-none" value="0" type="radio">
+                
+                        <label aria-label="1 star" class="rating_label" for="rating-1"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                        <input class="rating_input" name="rating" id="rating-1" value="1" type="radio">
+                
+                        <label aria-label="2 stars" class="rating_label" for="rating-2"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                        <input class="rating_input" name="rating" id="rating-2" value="2" type="radio">
+                
+                        <label aria-label="3 stars" class="rating_label" for="rating-3"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                        <input class="rating_input" name="rating" id="rating-3" value="3" type="radio">
+                
+                        <label aria-label="4 stars" class="rating_label" for="rating-4"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                        <input class="rating_input" name="rating" id="rating-4" value="4" type="radio">
+                
+                        <label aria-label="5 stars" class="rating_label" for="rating-5"><i class="rating_icon rating_icon--star fa fa-star"></i></label>
+                        <input class="rating_input" name="rating" id="rating-5" value="5" type="radio">
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+
+<script src="/script.js" type="text/javascript"></script>
+</body>
+</html>

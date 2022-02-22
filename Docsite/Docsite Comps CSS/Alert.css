@@ -1,68 +1,69 @@
-@import url('Comp.css');
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
 
-.toast-basic {
-    color: var( --light-grey);
-    background-color: var(--white);
+
+.alert-primary {
+    color: var(--primary-medium);
+    background-color: var(--primary-light);
 }
-.toast-grey {
-    color: var(--grey);
-    background-color: var(--grey-hover);
+.alert-secondary {
+    color: var(--primary-dark);
+    background-color: var(--snack-secondary-bg);
 }
-.toast-lightgrey {
+.alert-dark {
+    color: var(--primary-bold);
+    background-color: var(--snack-dark-bg);
+}
+.alert-lightgrey {
     color: var(--snack-lightgrey);
     background-color: var(--snack-lightgrey-bg);
 }
-.toast-success {
+.alert-success {
     color: var(--snack-success);
     background-color: var(--snack-success-bg);
 }
-.toast-warning {
+.alert-warning {
     color: var(--snack-warning);
     background-color: var(--snack-warning-bg);
 }
-.toast-error {
+.alert-error {
     color: var(--snack-error);
     background-color: var(--snack-error-bg);
 }
-.toast-info {
+.alert-info {
     color: var(--snack-info);
     background-color: var(--snack-info-bg);
 }
 
-.toast {
+.alert {
     border-radius: 5px;
     font-size: 1.1rem;
     padding: 1rem;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: start;
-    width: auto;
-    min-width: 30vw;
-    max-width: 35vw;
 }
-.outline-toast {
+.outline-alert {
     background-color: transparent;
     border: 2px solid;
 }
-.border-left-toast {
+.border-left-alert {
     border-left: 5px solid;
 }
-.shadow-toast {
+.shadow-alert {
     box-shadow: -1px 1px 6px 0 rgb(0 0 0 / 30%);
 }
-.border-toast {
+.border-alert {
     border:2px solid;
 }
 
 .icon-start {
     padding-right: .7rem;
 }
-.toast-end {
+.alert-end {
     margin-left: auto;
     cursor: pointer;
 }
-.toast-action-btn {
+.alert-action-btn {
     margin-left: auto;
     margin-right: 1rem;
     padding: 0.3rem 1rem;
@@ -72,7 +73,7 @@
     background-color: transparent;
     border: 1px solid;
 }
-.toast-action-btn {
+.alert-action-btn {
     margin-right: 1rem;
     padding: 0.3rem 1rem;
     border-radius: 5px;
@@ -82,19 +83,19 @@
     border: 1px solid;
     font-weight: bold;
 }
-.la-times:hover , .toast-action-btn:hover{
+.la-times:hover , .alert-action-btn:hover{
     color: var(--white);
 }
-.toast-link::before, .toast-link::after {
+.alert-link::before, .alert-link::after {
     content: '\00A0';
 }
-.toast-link {
+.alert-link {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
     color: inherit;
 }
-.toast-link:hover {
+.alert-link:hover {
     cursor: pointer;
     text-decoration: underline;
     text-decoration-thickness: 2px;

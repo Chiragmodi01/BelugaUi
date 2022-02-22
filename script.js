@@ -16,7 +16,7 @@ btnShowCode.forEach((btn, idx) => {
         }
     });
 }
-) 
+)
 
 
 // auto clicking the `getting-started` list item

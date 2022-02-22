@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="docsite.css">
+    <meta name="description" content="component libraryby">
+    <meta name="keywords" content="Beluga, CSS, component, Ui">
+    <meta name="author" content="Chirag Modi">
+    <meta property="og:title" content="BelugaUI">
+    <meta property="og:description" content="BelugaUI is a component libraryby chirag.">
+    <meta property="og:image" content="/Assets/dolphine.png">
+    <meta property="og:url" content="https://beluga-ui.netlify.app/index.html">
+    <meta name="twitter:card" content="/Assets/dolphine.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <title>Beluga| Docsite</title>
+    <link rel="icon" type="image/png" href="/Assets/favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="docsite.css">
 </head>
 <body onload="activeGetStarted()">
     <div class="docsite">
@@ -13,17 +21,18 @@
             <nav class="navbar flex align-center justify-space-between">
                 <div class="brand flex-centered cursor-pointer" onclick="location.href='/index.html'">
                     <span class="circle"></span>
-                    <img class="logo-img" src="/Assets/imageedit_3_8704073174.png" alt="beluga-logo">
+                    <img class="logo-img" src="/Assets/beluga-whale.png" alt="beluga-logo">
                     <h1 class="brand-name">Beluga</h1>
                 </div>
                 <ul class="nav-pills flex flex-row">
-                    <a href="#"> <li class="nav-pill cursor-pointer">Github</li> </a>
+                    <li class="nav-pill cursor-pointer btnTheme">Dark mode</li>
+                    <a href="https://github.com/Chiragmodi01/BelugaUi" target="_blank"> <li class="nav-pill cursor-pointer">Github</li> </a>
                 </ul>
             </nav>
         </section>
         <div class="arrow-menu">></div>
         <section class="docsite_docs">
-            <aside class="docsite_section_aside">
+            <aside class="docsite_section_aside" id="docsite_section_aside">
                 <nav class="nav-aside-wrapper flex flex-col">
                     <h3 class="aside_title">Installation</h3>
                     <ul class="aside_nav-list flex-centered align-start flex-col cursor-pointer">
@@ -36,6 +45,8 @@
                         <li class="list-item" id="button-title" href='Button.html'>Button</li>
                         <li class="list-item" id="image-title" href='Image.html'>Image</li>
                         <li class="list-item" id="input-title" href='Input.html'>Input</li>
+                        <li class="list-item" id="grid-title" href='Grid.html'>Grid</li>
+                        <li class="list-item" id="list-title" href='List.html'>List</li>
                     </ul>
                     <h3 class="aside_title">Components</h3>
                     <ul class="aside_nav-list flex-centered align-start flex-col cursor-pointer">
@@ -43,6 +54,9 @@
                         <li class="list-item" id="card-title" href='Card.html'>Card</li>
                         <li class="list-item" id="navigation-title" href='Navigation.html'>Navigation</li>
                         <li class="list-item" id="toast-title" href='Toast.html'>Toast</li>
+                        <li class="list-item" id="slider-title" href='Slider.html'>Slider</li>
+                        <li class="list-item" id="modal-title" href='Modal.html'>Modal</li>
+                        <li class="list-item" id="rating-title" href='Rating.html'>Rating</li>
                     </ul>
                     <h3 class="aside_title">Design Utils</h3>
                     <ul class="aside_nav-list flex-centered align-start flex-col cursor-pointer">

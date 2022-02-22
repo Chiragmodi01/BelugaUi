@@ -1,5 +1,5 @@
-@import url('Comp.css');
-@import url('Avatar.css');
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+@import url('/Docsite/Docsite\ Comps\ CSS/Avatar.css');
 
 .avatar-text {
     background-color: var(--primary-color);

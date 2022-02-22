@@ -1,0 +1,37 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+.list-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.list-ordered {
+    list-style: decimal;
+}
+.list-unordered {
+    list-style: inside;
+}
+.list-roman {
+    list-style: lower-roman;
+}
+.list-stacked {
+    flex-direction: column-reverse;
+    background-color: var(--medium-hover);
+    padding: 1.5rem;
+    flex-basis: 15rem;
+    border-radius: .5rem;
+}
+.stacked-list-item {
+    background-color: var(--primary-color);
+    padding: .7em;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stacked-list-item .fa-times {
+    font-weight: 300;
+}

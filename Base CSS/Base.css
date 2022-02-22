@@ -21,8 +21,6 @@
 @import url('/styles/font-size.css');
 @import url('/styles/variables.css');
 
-
-
 :root {
     --lightgrey: rgba(239, 239, 239, 65%);
     --midgrey: rgba(0,0,0,.50);

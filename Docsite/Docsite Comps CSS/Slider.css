@@ -1,0 +1,28 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+.filters_eachFilter {
+    background-color: transparent;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+.filters_eachFilter.filter-price #filter-price {
+    height: 3px;
+    width: 25rem;
+    height: 2px;
+    width: 25rem;
+    background: var(--primary-hover);
+    appearance: none;
+}
+.filters_eachFilter.filter-price #filter-price::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: var(--primary-medium) ;
+    appearance: none;
+}
+.filter-price-label {
+    font-size: 0.9em;
+    padding: 0 5px;
+}

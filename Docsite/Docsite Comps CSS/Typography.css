@@ -1,0 +1,24 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
+
+.heading-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+.label-font-size{
+    width: 7%;
+}
+
+.text-grey {
+    color: var(--grey);
+}
+.text-lightgrey {
+    color: var(--lightgrey);
+}
+.text-black {
+    color: var(--black);
+}
+.text-white {
+    color: var(--white);
+}

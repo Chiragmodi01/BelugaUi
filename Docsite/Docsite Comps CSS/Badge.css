@@ -1,6 +1,6 @@
-@import url('Avatar.css');
+@import url('/Docsite/Docsite\ Comps\ CSS/Avatar.css');
 
-@import url('Comp.css');
+@import url('/Docsite/Docsite\ Comps\ CSS/Comp.css');
 
 .border-sm-white {
     border-color: var(--primary-light);

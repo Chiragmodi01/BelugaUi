@@ -1,0 +1,61 @@
+@import url('/Docsite/Docsite\ Comps\ CSS/Avatar.css');
+
+.grid-comp-wrapper {
+    background-color: var(--medium-light);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+.grid-comp-wrapper.col {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-comp-wrapper.row {
+    grid-auto-flow: row;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-comp-wrapper.row-1_col {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.grid-comp-wrapper.row-1_col .grid-comp-child.child-1{
+    grid-column : 1 / span 1;
+    grid-row : 1 / -1;
+    height: auto;
+}
+.grid-comp-wrapper.row-1_col .grid-comp-child.child-2{
+    grid-column : 2 / -1;
+    grid-row : 1 / span 1;
+}
+.grid-comp-wrapper.row-1_col .grid-comp-child.child-3{
+    grid-column : 2 / -1;
+    grid-row : 2 / span 1;
+}
+
+.grid-comp-wrapper.col-1_row {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.grid-comp-wrapper.col-1_row .grid-comp-child.child-1{
+    grid-column : 1 / -1;
+    grid-row : 1 / span 1;
+}
+.grid-comp-wrapper.col-1_row .grid-comp-child.child-2{
+    grid-column : 1 / span 1;
+    grid-row : 2 / -1;
+}
+.grid-comp-wrapper.col-1_row .grid-comp-child.child-3{
+    grid-column : 2 / span 1;
+    grid-row : 2 / -1;
+}
+
+.grid-comp-child {
+    height: 10rem;
+    background-color: var(--medium-hover);
+    border-radius: 1rem;
+    color: var(--primary-light);
+}
