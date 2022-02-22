@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Docsite Comps CSS/Modal.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Docsite | Modal</title>
+</head>
+<body class="main-comp-container">
+    <section class="comp-header">
+        <h1 class="comp-title">Modal</h1>
+        <p class="comp-desc">Modal component is usefull to display any card or page of less size than the main page in a pop up fashion.</p>
+    </section>
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Side Modal</h2>
+        <p class="varient-desc">Side Modal is easy to use in your webpage, on a click of a button you can see the modal popping up on the right side and the main page getting blurred. Clicking on the 'x' icon shall close the modal.
+            <br><br>
+            You can customise the position of the modal and you can also create an horizonal or square modal like an alert box. 
+        </p>
+        <div class="comp-display-wrapper flex-centered">
+            <button class="openModalBtn cursor-pointer">Show Modal</button>
+            <main class="modal-container">
+                <div class="loginPage_top">
+                    <div class="loginPage_header">
+                        <div class="loginPage_header_title-wrapper">
+                        <h4 class="loginPage_header_title">Login</h4>
+                        <i class="fas fa-md fa-times login-dismiss-icon pointer"></i>
+                        </div>
+                        <p class="loginPage_header_desc">If you are a registered user, please enter your email and password.</p>
+                    </div>
+                    <form action="/" class="loginPage_form">
+                        <input placeholder="Email" type="text" name="/" class="loginPage_form_input input-email">
+                        <input placeholder="Password" type="text" name="/" class="loginPage_form_input input-pass">
+                        <div class="loginPage_form_checkbox-wrapper">
+                            <input type="checkbox" name="/" id="remember-me" class="loginPage_form_checkbox">
+                            <label for="remember-me" class="loginPage_form_checkbox-label">Remember me</label>
+                        </div>
+                        <button type="submit" class="loginPage_from_submit hover-hollow">Login</button>
+                        <a href="/" class="loginPage_from_action-forgot-pass">Forgot my password</a>
+                    </form>
+                </div>
+            
+                <div class="loginPage_bottom">
+                    <div class="loginPage_bottom_header-wrapper">
+                        <h4 class="loginPage_bottom_header_title">Get an account now</h4>
+                        <p class="loginPage_bottom_header_desc">Save credit card details for faster shopping Manage your order history Gain access to your Wishlist</p>
+                    </div>
+                    <button class="loginPage_bottom_action hover-fill-solid">Register now</button>
+                </div>
+                </main>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <main class="modal-container">
+                        <div class="loginPage_top">
+                            <div class="loginPage_header">
+                                <div class="loginPage_header_title-wrapper">
+                                <h4 class="loginPage_header_title">Login</h4>
+                                <i class="fas fa-md fa-times login-dismiss-icon pointer"></i>
+                                </div>
+                                <p class="loginPage_header_desc">If you are a registered user, please enter your email and password.</p>
+                            </div>
+                            <form action="/" class="loginPage_form">
+                                <input placeholder="Email" type="text" name="/" class="loginPage_form_input input-email">
+                                <input placeholder="Password" type="text" name="/" class="loginPage_form_input input-pass">
+                                <div class="loginPage_form_checkbox-wrapper">
+                                    <input type="checkbox" name="/" id="remember-me" class="loginPage_form_checkbox">
+                                    <label for="remember-me" class="loginPage_form_checkbox-label">Remember me</label>
+                                </div>
+                                <button type="submit" class="loginPage_from_submit hover-hollow">Login</button>
+                                <a href="/" class="loginPage_from_action-forgot-pass">Forgot my password</a>
+                            </form>
+                        </div>
+                    
+                        <div class="loginPage_bottom">
+                            <div class="loginPage_bottom_header-wrapper">
+                                <h4 class="loginPage_bottom_header_title">Get an account now</h4>
+                                <p class="loginPage_bottom_header_desc">Save credit card details for faster shopping Manage your order history Gain access to your Wishlist</p>
+                            </div>
+                            <button class="loginPage_bottom_action hover-fill-solid">Register now</button>
+                        </div>
+                        </main>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+  
+    <script src="../Scripts/openModal.js" type="text/javascript"></script>
+        
+
+</script>
+</body>
+</html>

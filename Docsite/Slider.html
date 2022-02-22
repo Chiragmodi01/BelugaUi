@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Docsite Comps CSS/Slider.css">
+    <title>Docsite | Slider</title>
+</head>
+<body class="main-comp-container">
+    <section class="comp-header">
+        <h1 class="comp-title">Slider</h1>
+        <p class="comp-desc">Slider component is usefull to display price, size, category or any kind of numerical value which is being changed by the user</p>
+    </section>
+    <section class="comp-varient-wrapper">
+        <h2 class="varient-title">Simple Slider</h2>
+        <p class="varient-desc">Simple slider is easy to integrate in your webpage and it is customised to show price with the range which user selects and also the final output of the selected range on the right.
+            <br>
+            You can customise it's slider's color, width and also the size and color of the slider thumb. 
+        </p>
+        <div class="comp-display-wrapper">
+            <div class="FilterPrice">
+                <form class="filters_eachFilter filter-price" onInput="o.value=parseInt(p.value)">
+                    <label class='filter-price-label label-min' htmlFor="filter-price">$650</label>
+                    <input type="range" min="0" max="100" value="10" id="filter-price" name="p"/>
+                    <label class='filter-price-label label-max' htmlFor="filter-price">$1,100</label>
+                    <output class='filter-price-output' htmlFor="filter-price" name="o"></output>
+                </form>
+            </div>
+        </div>
+        <div class="show-code-wrapper">
+            <button class="btn btn-show-code">Show me the code</button>
+        </div>
+        <div class="code-display-wrapper">
+            <div class="code-wrapper-top">
+                <div class="ios-dots-wrapper">
+                    <span class="ios-dot dot-red"></span><span class="ios-dot dot-yellow"></span><span class="ios-dot dot-green"></span>
+                </div>
+                 
+            </div>
+            <div class="code-wrapper-bottom">
+                <pre class="markdown-display" >
+                    <div class="FilterPrice">
+                        <form class="filters_eachFilter filter-price" onInput="o.value=parseInt(p.value)">
+                            <label class='filter-price-label label-min' htmlFor="filter-price">$650</label>
+                            <input type="range" min="0" max="100" value="10" id="filter-price" name="p"/>
+                            <label class='filter-price-label label-max' htmlFor="filter-price">$1,100</label>
+                            <output class='filter-price-output' htmlFor="filter-price" name="o"></output>
+                        </form>
+                    </div>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+  
+    <script src="/script.js" type="text/javascript"></script>
+        
+
+</script>
+</body>
+</html>

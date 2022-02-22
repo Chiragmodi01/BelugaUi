@@ -1,0 +1,32 @@
+@import url('Comp.css');
+
+.rating-group {
+    display: inline-flex;
+}
+.rating_icon {
+    pointer-events: none;
+}
+.rating_input {
+    position: absolute !important;
+    left: -9999px !important;
+}
+.rating_input--none {
+    display: none
+}
+.rating_label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 2rem;
+}
+.rating_icon--star {
+    color: orange;
+}
+.rating_input:checked ~ .rating_label .rating_icon--star {
+    color: #ddd;
+}
+.rating-group:hover .rating_label .rating_icon--star {
+    color: orange;
+}
+.rating_input:hover ~ .rating_label .rating_icon--star {
+    color: #ddd;
+}
