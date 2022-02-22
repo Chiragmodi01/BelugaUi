@@ -133,8 +133,8 @@ CSS Grid can be used to structure elements in rows and columns.
 
 - Two Columns Grid
 - Two Rows Grid
-- Three Columns Grid
-- Three Columns Grid
+- Three Columns Vertical box Grid collage
+- Three Columns Horizontal box Grid collage
 
 ---
 
